@@ -23,6 +23,9 @@ def calculate_maths(operation):
     elif operation == '*':
         return multiply
 
+print('please enter the operation, +,-,/,*')
+operation = calculate_maths(input())
+print(operation(4,4))
 
 
 
